@@ -49,3 +49,8 @@ dat <- harmonise_data(exposure_dat, outcome_dat)
 
 Fourthly, once the exposure and outcome data are harmonised, we have effects and standard errors for each instrument SNP available for the exposure and outcome traits. We can use this information to perform Mendelian randomisation. To do this, simply run:
 MR_result <- mr(dat)
+
+#MR methods
+The list of available MR methods can be obtained:
+
+mr_method_list()
