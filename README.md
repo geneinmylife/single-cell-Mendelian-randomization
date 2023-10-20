@@ -8,7 +8,7 @@ remotes::install_github("MRCIEU/TwoSampleMR")
 
 To update the package just run the remotes::install_github("MRCIEU/TwoSampleMR") command again.
 
-#Run MR analysis
+#Run MR analysis    
 Firstly, to run the single-cell MR analysis, you need to input a exposure file with correct format:
 The exposure input file need to be a tab separated table with the following columns.
 1. `CHR` -- chromosome identifier
